@@ -12,9 +12,9 @@
     "react-scripts": "^3.4.0"
   },
   "scripts": {
-    "get-env": "./get-env.js",
-    "get-env-netlify": "./get-env-netlify.js",
-    "start": "NODE_ENV=development && npm run get-env && env-cmd -f .config-env env-cmd -f .env react-scripts start",
+    "get-env": "node get-env.js",
+    "get-env-netlify": "node get-env-netlify.js",
+    "start": "npm run get-env && env-cmd -f .config-env env-cmd -f .env react-scripts start",
     "start-old": "env-cmd -f .env.local react-scripts start",
     "build:mgnl": "npm run clean && env-cmd -f .env.mgnl react-scripts build",
     "build:netlify": "npm run clean && npm run get-env-netlify && CI=false && env-cmd -f .config-env env-cmd -f .env react-scripts build",
