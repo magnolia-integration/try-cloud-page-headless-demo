@@ -4,4 +4,4 @@ label: Activities
 
 #Optionally override any of the app configuration supplied by the content type.
 subApps:
-  detail: !include:/spa-lm/includes/myinclude.yaml
+  detail: !include:spa-lm/includes/myinclude.yaml
