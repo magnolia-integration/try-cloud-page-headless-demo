@@ -6,3 +6,4 @@ label: Activities
 subApps:
   detail: !include:/spa-lm/includes/myinclude.yaml
 
+
