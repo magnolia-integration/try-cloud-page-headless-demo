@@ -4,4 +4,7 @@ form:
     title:
       label: Title
       $type: textField
+    featuredImage:
+      $type: damLinkField
+      textInputAllowed: true
       i18n: true
