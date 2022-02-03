@@ -1,4 +1,4 @@
 featuredImage:
   $type: damLinkField
   textInputAllowed: true
-  i18n: true
+  i18n: false
