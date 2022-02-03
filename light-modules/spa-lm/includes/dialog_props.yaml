@@ -1,6 +1,3 @@
-title:
-  label: Title
-  $type: textField
 featuredImage:
   $type: damLinkField
   textInputAllowed: true
