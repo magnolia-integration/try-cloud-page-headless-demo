@@ -1,13 +1,3 @@
 label: Page Properties
 form:
-  properties: !include:/spa-lm/includes/dialog_props.yaml
-    purchaseDate:
-      $type: compositeField
-      itemProvider:
-        $type: jcrChildNodeProvider
-      label: Purchase Date Field
-      properties: !include:/spa-lm/includes/dialog_props.yaml
-        label:
-          defaultValue: When did you purchase it?
-        hint:
-          defaultValue: form-field an approximate purchase date
+  properties: !include:/spa-lm/includes/composite.yaml
