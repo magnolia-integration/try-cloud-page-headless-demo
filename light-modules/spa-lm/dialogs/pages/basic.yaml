@@ -1,3 +1,3 @@
-label: Page Properties
+label: Page Props
 form:
   properties: !include:/spa-lm/includes/composite.yaml
