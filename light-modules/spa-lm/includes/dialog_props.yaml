@@ -2,3 +2,11 @@ featuredImage:
   $type: damLinkField
   textInputAllowed: true
   i18n: true
+featuredImage2:
+  $type: damLinkField
+  textInputAllowed: true
+  i18n: true
+featuredImage3:
+  $type: damLinkField
+  textInputAllowed: true
+  i18n: true
