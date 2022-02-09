@@ -1,4 +1,8 @@
 featuredImage:
   $type: damLinkField
   textInputAllowed: true
+hidden:
+  $type: hiddenField
+  type: java.lang.Boolean
+  defaultValue: true
   i18n: true
