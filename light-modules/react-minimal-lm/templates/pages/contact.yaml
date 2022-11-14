@@ -5,7 +5,7 @@ routeTemplate: "{{@path}}"
 dialog: spa-lm:pages/basic
 
 renderType: spa
-class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+class: info.magnolia.rendering.norsu.renderer.SpaRenderableDefinition
 
 areas:
 
